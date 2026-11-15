@@ -1,0 +1,56 @@
+{
+  "best_model": "Gradient Boosting",
+  "total_samples": 809,
+  "num_features": 10,
+  "num_classes": 18,
+  "models_compared": {
+    "Logistic Regression": {
+      "cv_accuracy_mean": 0.12839506172839504,
+      "cv_accuracy_std": 0.012590171638500704,
+      "cv_f1_macro_mean": 0.068077677407321,
+      "train_accuracy": 0.2521631644004944,
+      "train_f1_macro": 0.19126628642334526
+    },
+    "Random Forest": {
+      "cv_accuracy_mean": 0.14814814814814814,
+      "cv_accuracy_std": 0.020286020648339485,
+      "cv_f1_macro_mean": 0.0947476781587734,
+      "train_accuracy": 0.7045735475896168,
+      "train_f1_macro": 0.6799236568683352
+    },
+    "Gradient Boosting": {
+      "cv_accuracy_mean": 0.14320987654320988,
+      "cv_accuracy_std": 0.02511974067824173,
+      "cv_f1_macro_mean": 0.12080526084184913,
+      "train_accuracy": 0.8541409147095179,
+      "train_f1_macro": 0.8534291209850557
+    },
+    "XGBoost": {
+      "cv_accuracy_mean": 0.1271604938271605,
+      "cv_accuracy_std": 0.019363440915256942,
+      "cv_f1_macro_mean": 0.09647362825752606,
+      "train_accuracy": 0.7317676143386898,
+      "train_f1_macro": 0.7499664035060464
+    }
+  },
+  "class_labels": [
+    "Bug",
+    "Dark",
+    "Dragon",
+    "Electric",
+    "Fairy",
+    "Fighting",
+    "Fire",
+    "Flying",
+    "Ghost",
+    "Grass",
+    "Ground",
+    "Ice",
+    "Normal",
+    "Poison",
+    "Psychic",
+    "Rock",
+    "Steel",
+    "Water"
+  ]
+}

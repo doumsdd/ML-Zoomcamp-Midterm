@@ -1,0 +1,12 @@
+[
+  "name_length",
+  "vowel_ratio",
+  "consonant_ratio",
+  "ends_with_vowel",
+  "has_double_letter",
+  "unique_letter_ratio",
+  "first_letter",
+  "contains_digit",
+  "syllable_estimate",
+  "name_length_squared"
+]

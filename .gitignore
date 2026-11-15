@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Model artifacts (large binary)
+model.pkl
+label_encoder.pkl
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+server.log
+
+# Temporary / test files
+test_predict_direct.py
+predict_output.txt
+train_log.txt
+notebook_part1.ipynb
+create_notebook.py
+generate_nb*.py
+temp_write/
+verify_project.py
+
+# Jupyter notebook outputs
+.ipynb_checkpoints/
